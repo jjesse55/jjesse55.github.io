@@ -105,6 +105,10 @@ main {
     color: white;
 }
 
+#projects a {
+    color: blue;
+}
+
 #contact {
 
 }
