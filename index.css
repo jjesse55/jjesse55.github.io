@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url("images/about_background.jpg");
+    background-image: url("images/iphone.jpeg");
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
 }
@@ -16,10 +16,20 @@ nav {
     height: 4em;
     margin: 0;
     color: white;
-    background-color: rgba(20,20,20,.9)
+    background-color: rgba(20,20,20,.9);
+    background: linear-gradient(black, transparent)
 }
 
-header {
+nav a {
+    color: #99e600;
+}
+
+nav a:hover {
+    color: white;
+}
+
+nav ul {
+    margin-left: 2em;
 }
 
 .inline {
@@ -42,15 +52,20 @@ header {
     height: 100vh;
     width: 50%;
     margin: 0 auto;
-    padding-top: 3.5em;
-    font-size: x-large;
-    color: #111;
-    font-family: 'Permanent Marker', cursive;
+    padding-top: 2em;
+    color: white;
+    font-family: 'Rock Salt', cursive;
     line-height: 250%;
     margin-bottom: 2em;
 }
 
-main {
+#bio h1 {
+    font-size: 3.5em;
+    font-weight: lighter;
+}
+
+#bio h4 {
+    line-height: normal;
 }
 
 .bold {
@@ -94,54 +109,11 @@ main {
     font-size: large;
 }
 
-#projects {
-    margin-top: 6em;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 6em;
-    background-image: url(images/project_background.jpg);
-    background-size: 100vw 100vh;
-    background-repeat: no-repeat;
-    color: black;
-}
-
-#projects a {
-    color: white;
-    text-decoration: underline;
-}
-
-#projects h1 {
-    font-family: 'Rock Salt', cursive;
-    color: white;
-    font-size: 5em;
-}
-
-#projects .full-screen h4 {
-    font-family: 'Rock Salt', cursive;
-    color: #b3b3b3;
-}
-
-.full-screen {
-    height: 100vh;
-}
-
-#contact {
-
-}
-
-.border {
-    border-top: 2px solid grey;
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 #quotes {
     margin-top: 4em;
     margin-bottom: 6em;
 }
 
-.card img {
-    width: 100%;
-    height: 70vh;
+#contact {
+    margin-top: 4em;
 }
