@@ -2,9 +2,16 @@
     box-sizing: boarder-box;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 575.98px) {
 #projects {
     background: url("images/croppediphone.jpeg");
+}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+#projects {
+    background: url("images/croppediphone.jpeg");
+    background-size: 100vw 100vh;
 }
 }
 
@@ -14,6 +21,25 @@
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
 }
+}
+
+@media (max-width: 767.98px) {
+#projects h5 {
+    font-size: 1em;
+}
+}
+
+
+@media (min-width: 768px) {
+#projects h5 {
+    font-size: 1em;
+}
+}
+
+@media (min-width: 960px) {
+    #projects h5 {
+    font-size: 1.4em;
+    }
 }
 
 nav {

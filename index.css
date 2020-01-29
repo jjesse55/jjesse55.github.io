@@ -2,9 +2,16 @@
     box-sizing: boarder-box;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 575.98px) {
 #about .background {
     background: url("images/croppediphone.jpeg");
+}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+#about .background {
+    background: url("images/croppediphone.jpeg");
+    background-size: 100vw 100vh;
 }
 }
 
