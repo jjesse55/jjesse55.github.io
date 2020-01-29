@@ -5,7 +5,7 @@
 @media (min-width: 576px) {
 #projects {
     background-image: url("images/iphone.jpeg");
-    background-size: auto auto;
+    background-size: 400vw 100vh;
     background-repeat: no-repeat;
 }
 }

@@ -2,10 +2,20 @@
     box-sizing: boarder-box;
 }
 
+@media (min-width: 576px) {
+#about {
+    background-image: url("images/iphone.jpeg");
+    background-size: 400vw 100vh;
+    background-repeat: no-repeat;
+}
+}
+
+@media (min-width: 768px) {
 #about {
     background-image: url("images/iphone.jpeg");
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
+}
 }
 
 nav {
