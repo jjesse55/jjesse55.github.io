@@ -4,9 +4,7 @@
 
 @media (min-width: 576px) {
 #projects {
-    background-image: url("images/iphone.jpeg");
-    background-size: 400vw 100vh;
-    background-repeat: no-repeat;
+    background: url("images/croppediphone.jpeg");
 }
 }
 
@@ -29,8 +27,12 @@ nav {
     background: black;
 }
 
-nav a {
+.navbar .collapse .navbar-nav .nav-item .nav-link {
     color: #99e600;
+}
+
+.navbar .collapse .navbar-nav .nav-item  .active {
+    color: white;
 }
 
 nav a:hover {

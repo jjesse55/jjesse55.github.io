@@ -3,15 +3,13 @@
 }
 
 @media (min-width: 576px) {
-#about {
-    background-image: url("images/iphone.jpeg");
-    background-size: 400vw 100vh;
-    background-repeat: no-repeat;
+#about .background {
+    background: url("images/croppediphone.jpeg");
 }
 }
 
 @media (min-width: 768px) {
-#about {
+#about .background {
     background-image: url("images/iphone.jpeg");
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
@@ -30,8 +28,16 @@ nav {
     background: black;
 }
 
-nav a {
+nav button {
+    background-color: white;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link {
     color: #99e600;
+}
+
+.navbar .collapse .navbar-nav .nav-item  .active {
+    color: white;
 }
 
 nav a:hover {
@@ -74,8 +80,25 @@ nav ul {
     font-weight: lighter;
 }
 
+@media (min-width: 576px) {
 #bio h4 {
-    line-height: normal;
+    line-height: 2em;
+    font-size: 1.4em;
+}
+}
+
+@media (min-width: 768px) {
+#bio h4 {
+    line-height: 2em;
+    font-size: 1.1em;
+}
+}
+
+@media (min-width: 960px) {
+    #bio h4 {
+    line-height: 2em;
+    font-size: 1.4em;
+    }
 }
 
 .bold {
