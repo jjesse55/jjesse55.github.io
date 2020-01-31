@@ -18,7 +18,7 @@
 @media (min-width: 768px) {
 #projects {
     background-image: url("images/iphone.jpeg");
-    background-size: 100vw 100vh;
+    background-size: 105vw 100vh;
     background-repeat: no-repeat;
 }
 }
@@ -116,6 +116,7 @@ nav ul {
 
 #projects h1 {
     font-size: 3.5em;
+    z-index: -2;
 }
 
 .border {
@@ -149,4 +150,8 @@ footer a {
 
 footer a:hover {
     color: white;
+}
+
+main {
+    padding-top: 4em;
 }
