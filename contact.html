@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- HTML 5 setup -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- Information about the webpage -->
+        <title>Joseph Jesse</title>
+        <meta name="description" content="Personal portfolio of Joseph Jesse.">
+        <meta name="keywords" content=" Joseph, Jesse, portfolio, about, resume, contact, projects, bio">
+        <!-- All things included for Bootstrap CDN -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet">
+        <!-- My stylesheet -->
+        <link rel="stylesheet" href="contact.css">
+    </head>
+
+    <body>
+        <header>
+            <!-- Bootstrap navbar-->
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+
+                <!-- Bootstrap navbar toggler for smaller devices and collapsible option -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link bold active" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="conatiner-fluid">
+                <form id="contactForm">
+                    <fieldset form="contactForm">
+                        <legend>
+                            <h2><b>Contact Form</b></h2>
+                        </legend>
+                        </legend>
+                        <label>Name: <input type="text" name=name></label><br>
+                        <label>Email:&nbsp <input type="text" name=email></label><br>
+                        <label>Phone:&nbsp <input type="text" name=phone></label><br>
+                        <br>
+                        <p>Perferred method of communication: </p>
+                        <input type="radio" name="schoolLevel" id="byEmail" value="graduate">
+                        <label for="byEmail"> Email</label><br>
+                        <input type="radio" name="schoolLevel" id="byPhone" value="undergraduate">
+                        <label for="byPhone"> Phone</label><br>
+                        <br>
+                        <label for="comments">Reason for contacting:</label><br>
+                        <textarea id="comments" rows=6 cols=30></textarea><br>
+                        <input class="button" type="button" value=Submit>
+                        <input class="button" type="button" value=Reset>
+                    </fieldset>
+                </form>
+            </div>
+        </main>
+    </body>
+    <html>
